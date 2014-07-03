@@ -1,14 +1,4 @@
---- !ruby/object:Rake::FileList
-pending_add: []
-pending: false
-exclude_patterns:
-- !ruby/regexp /(^|[\/\\])CVS([\/\\]|$)/
-- !ruby/regexp /(^|[\/\\])\.svn([\/\\]|$)/
-- !ruby/regexp /\.bak$/
-- !ruby/regexp /~$/
-exclude_procs:
-- !ruby/object:Proc {}
-items:
+---
 - name: ant
   path: /chocolateypackages/icons/ant.png
 - name: apachedirectorystudio
@@ -59,6 +49,8 @@ items:
   path: /chocolateypackages/icons/keepass.png
 - name: liquibase
   path: /chocolateypackages/icons/liquibase.png
+- name: lolcommits
+  path: /chocolateypackages/icons/lolcommits.png
 - name: microsoft
   path: /chocolateypackages/icons/microsoft.png
 - name: microsoftoffice
@@ -83,6 +75,8 @@ items:
   path: /chocolateypackages/icons/nvspbind.png
 - name: ocsdk
   path: /chocolateypackages/icons/ocsdk.png
+- name: openra
+  path: /chocolateypackages/icons/openra.png
 - name: oracle
   path: /chocolateypackages/icons/oracle.png
 - name: pdftk
@@ -99,6 +93,8 @@ items:
   path: /chocolateypackages/icons/reflector.png
 - name: resourcesextract
   path: /chocolateypackages/icons/resourcesextract.png
+- name: screenhero
+  path: /chocolateypackages/icons/screenhero.png
 - name: setacl
   path: /chocolateypackages/icons/setacl.png
 - name: sikuli
